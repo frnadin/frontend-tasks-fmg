@@ -1,0 +1,14 @@
+.home-button {
+    background-color: transparent;
+    /* border: 2px solid rgba(120, 176, 42, 0.681); */
+    cursor: pointer;
+    /* padding: 8px; */
+    /* border-radius: 50%; */
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* MUDAR COR DO BOTAO E ESTILO DA PAGINA */

@@ -1,0 +1,89 @@
+/* Estilo exclusivo para o componente Register */
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-box {
+    background-color: #ffffff11;
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px #00000066;
+    width: 100%;
+    min-width: 400px;
+    max-width: 420px;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+
+.register-box:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 15px #397fdb;
+    transition: 0.5s;
+
+}
+
+.register-box h2 {
+    color: #2c78db;
+    margin-bottom: 24px;
+}
+
+.register-box form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.register-box button {
+    padding: 12px;
+    background-color: #1e3a5f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 10px #1e3a5f;
+
+}
+
+.register-box button:hover {
+    background-color: #0097a7;
+    box-shadow: 0px 0px 10px rgba(46, 125, 50, 0.293)
+
+}
+
+.register-error {
+    color: #ffcc00;
+    text-align: center;
+    font-size: 14px;
+}
+
+.register-success {
+    color: #66ff66;
+    text-align: center;
+    font-size: 14px;
+}
+.space-erro .register-error {
+    color: #f5c542; /* mesma cor que a atual .error */
+    font-size: 14px;
+    height: 18px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.space-erro .register-success {
+    color: #66ff66;
+    font-size: 14px;
+    height: 18px;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
