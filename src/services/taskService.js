@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_URL = import.meta.env.VITE_API_URL;
-
+console.log("API_URL:", API_URL); // Verifica se a URL da API está correta
 
 export const createTask = async (description, token) => {
 

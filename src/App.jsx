@@ -10,6 +10,10 @@ import Register from "./pages/Register/Register.jsx";
 import Home from './pages/Home/Home.jsx'
 import Tasks from './pages/Tasks/Tasks.jsx'
 function App() {
+  const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3131';
+
+console.log(API_URL);
+
 
   return (  
     <AuthProvider>
