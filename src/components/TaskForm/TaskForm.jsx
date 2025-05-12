@@ -12,8 +12,8 @@ const TaskForm = ({ onTaskCreated }) => {
         try {
             const result = await createTask(description, token)
             console.log('task create: ', result);
-            setDescription(''); 
-            onTaskCreated(result); 
+            setDescription('');
+            onTaskCreated(result);
         }
         catch (error) {
             console.error('error: ', error);
@@ -27,8 +27,12 @@ const TaskForm = ({ onTaskCreated }) => {
                 onChange={(e) => setDescription(e.target.value)}
                 placeholder="Description of task"
             />
-            <button onClick={handleCreate}>Criar Tarefa</button>
-            <HomeButton />
+            <div className="task-form-buttons">
+                <button onClick={() => setDescription('')}>Limpar</button>
+                <button onClick={handleCreate}>Create Task</button>
+                <HomeButton />
+
+            </div>
         </div>
     )
 }

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useAuth } from '../../context/AuthContext.jsx';
 import { useNavigate } from 'react-router-dom';
 import './Login.css';
+import Header from '../../components/Header/Header.jsx';
 
 function Login() {
     const [email, setEmail] = useState('');
@@ -29,6 +30,8 @@ function Login() {
     }
     return (
         <div className="login-page">
+                    <Header title="Fmg Tasks" />
+
             <div className="login-box">
                 <h2>Login</h2>
                 <form onSubmit={handleLogin}>

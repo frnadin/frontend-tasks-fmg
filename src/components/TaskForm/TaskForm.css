@@ -25,6 +25,12 @@
 
 }
 
-.task-form button {
-    
+.task-form-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10rem;
+  width: 100%;
+  margin-top: 1rem;
 }
+

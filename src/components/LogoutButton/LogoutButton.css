@@ -9,3 +9,7 @@
     cursor: pointer;
     transition: background-color 0.5s;
 }
+
+.logout-button:hover {
+    background-color: #e65c00;
+}
