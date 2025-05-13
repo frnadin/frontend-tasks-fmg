@@ -1,5 +1,3 @@
-/* Estilo exclusivo para o componente Register */
-
 .register-page {
     display: flex;
     justify-content: center;
@@ -11,14 +9,14 @@
     background-color: #ffffff11;
     display: flex;
     flex-direction: column;
-    padding: 55px;
+    width: 450px;
+    height: 410px;
+    padding: 10px;
     border-radius: 16px;
     box-shadow: 0 0 15px #00000066;
-    width: 100%;
-    min-width: 400px;
-    max-width: 420px;
     align-items: center;
     transition: 0.5s ease;
+    justify-content: center;
 }
 
 
@@ -31,16 +29,25 @@
 
 .register-box h2 {
     color: #2c78db;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+    margin-bottom: 20px;
+    font-size: 24px;
 }
+
+.form-group {
+    display: flex;
+    width: 100%;
+    /* padding: 0 50px; */
+    margin-bottom: 10px;
+}
+
 
 .register-box form {
-    width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+    justify-content: center;
 }
-
 
 .register-box button {
     padding: 12px;
@@ -73,7 +80,7 @@
     font-size: 14px;
 }
 .space-erro .register-error {
-    color: #f5c542; /* mesma cor que a atual .error */
+    color: #f5c542;
     font-size: 14px;
     height: 18px;
     opacity: 1;
@@ -86,4 +93,22 @@
     height: 18px;
     opacity: 1;
     transition: opacity 0.3s ease-in-out;
+}
+.register-page Header {
+    background-color: #1e3a5f;
+}
+  
+body {
+    padding-top: 60px; 
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #4d60804e;
+    color: #fff;
+    border: none;
+    box-sizing: border-box;
 }

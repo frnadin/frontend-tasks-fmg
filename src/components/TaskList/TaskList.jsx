@@ -14,7 +14,7 @@ const TaskList = () => {
     const { token, user } = useAuth();
     const userID = user?.id;
     console.log("User ID:", userID);
-    
+
 
     const [tasks, setTasks] = useState([]);
 
@@ -30,7 +30,7 @@ const TaskList = () => {
                 toast.warn('You can only change the status of your own tasks.');
                 return;
             }
-            
+
 
 
             // Atualiza a tarefa diretamente na lista local
@@ -78,7 +78,9 @@ const TaskList = () => {
         const fetchTasks = async () => {
             try {
                 const result = await getTasks(token);
-                setTasks(result);
+                
+                const sortedTasks = result.sort((a, b) => a.id - b.id);
+                setTasks(sortedTasks);
             } catch (error) {
                 console.error('Error: ', error);
                 toast.error('Error fetching tasks. :(');

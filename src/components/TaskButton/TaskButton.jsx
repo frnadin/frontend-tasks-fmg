@@ -9,7 +9,7 @@ function TaskButton() {
     };
 
     return (
-        <button className="logout-button" onClick={handleButton}>
+        <button className="task-button" onClick={handleButton}>
             Tasks
         </button>
     );

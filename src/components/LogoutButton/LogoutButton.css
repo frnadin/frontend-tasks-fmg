@@ -1,7 +1,8 @@
 .logout-button {
     width: 100%;
     padding: 12px;
-    background-color: #f4721e;
+    background-color: #2e7d32;
+    box-shadow: 0px 0px 10px #25802a7c;
     color: white;
     border: none;
     border-radius: 6px;

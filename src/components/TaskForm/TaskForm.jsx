@@ -28,8 +28,8 @@ const TaskForm = ({ onTaskCreated }) => {
                 placeholder="Description of task"
             />
             <div className="task-form-buttons">
-                <button onClick={() => setDescription('')}>Limpar</button>
-                <button onClick={handleCreate}>Create Task</button>
+                <button className='clear' onClick={() => setDescription('')}>Limpar</button>
+                <button className='create' onClick={handleCreate}>Create Task</button>
                 <HomeButton />
 
             </div>

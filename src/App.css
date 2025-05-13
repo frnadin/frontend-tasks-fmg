@@ -18,3 +18,14 @@ body {
   /* padding: 2rem; */
   /* color: #FFEB3B; */
 }
+
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #4d60804e;
+  color: #fff;
+  border: none;
+  box-sizing: border-box;
+}

@@ -16,8 +16,6 @@ function LogoutButton() {
     return (
         <button className="logout-button" onClick={handleLogout}>
             <FiPower className="logout-icon" />
-
-            Logout
         </button>
     );
 }

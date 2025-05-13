@@ -1,0 +1,32 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.home-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-box Header {
+  background-color: #2e7d32;
+}
+
+/* .button-container button {
+    background-color: #2e7d32;
+    box-shadow: 0px 0px 10px #25802a7c
+
+}*/
+/* .home-box button:hover {
+    background-color: #8f33d1;
+    box-shadow: 0px 0px 10px #6c0ab1
+
+}  */
+
+/* .button-container TaskButton:hover {
+  background-color: #5dc763;
+  box-shadow: 0px 0px 10px #2e7d327c;
+} */

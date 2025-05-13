@@ -2,15 +2,21 @@ import Title from "../../components/Title/Title";
 import LogoutButton from "../../components/LogoutButton/LogoutButton";
 import TaskButton from "../../components/TaskButton/TaskButton";
 import Header from "../../components/Header/Header";
+import React from "react";
+import "./Home.css";
 
-function Home (){
+function Home() {
     return (
         <>
-        <Header title="Home" />
-        <Title/>
-        
-        <LogoutButton />
-        <TaskButton />
+            <div className="home-box">
+                <Header title="Home" />
+                <Title />
+                
+                <div className="button-container">
+                    <TaskButton />
+                    <LogoutButton />
+                </div>
+            </div>
         </>
     )
 }
