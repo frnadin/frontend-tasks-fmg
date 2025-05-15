@@ -85,7 +85,7 @@ function Login() {
             </div>
             <Footer
                 textColor="#fff"
-                bgColor="#333"    
+                bgColor="#2d2d2d88"    
                 linkColor="#f4721e" 
             />
 

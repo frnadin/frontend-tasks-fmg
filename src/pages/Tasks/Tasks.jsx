@@ -17,7 +17,7 @@ function Tasks() {
             </div>
             <Footer
                 textColor="#fff"
-                bgColor="#333"
+                bgColor="#2d2d2d88"
                 linkColor="#8f33d1"
             />
         </div>

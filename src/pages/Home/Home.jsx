@@ -20,7 +20,7 @@ function Home() {
             </div>
             <Footer
                 textColor="#fff"
-                bgColor="#333"
+                bgColor="#2d2d2d88"
                 linkColor="#2e7d32"
             />
         </div>
