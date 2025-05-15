@@ -27,7 +27,7 @@ function AuthProvider({ children }) {
 
     const login = async (email, password) => {
         try {
-            const response = await axios.post('http://localhost:3131/user/login', { email, password });
+            const response = await axios.post('https://backend-tasks-fmg.onrender.com/user/login', { email, password });
             
             // Log da resposta completa
             console.log("Resposta completa da API:", response.data);
