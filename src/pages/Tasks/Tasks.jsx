@@ -1,21 +1,27 @@
-    import React, { useState } from "react";
-    import TaskForm from "../../components/TaskForm/TaskForm"
-    import TaskList from "../../components/TaskList/TaskList"
-    import {useAuth} from "../../context/AuthContext"
-    import Header from "../../components/Header/Header"
-    import "./Tasks.css"
+import React, { useState } from "react";
+import TaskForm from "../../components/TaskForm/TaskForm";
+import TaskList from "../../components/TaskList/TaskList";
+import { useAuth } from "../../context/AuthContext";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer"; // Importa o Footer
+import "./Tasks.css";
 
-    function Tasks (){
-        const [tasks, setTasks] = useState([]);
+function Tasks() {
+    const [tasks, setTasks] = useState([]);
 
-        return (
+    return (
+        <div className="task-container">
             <div className="task-box">
-        
-            <Header title="Tasks" />
-
-            <TaskList tasks={tasks} setTasks={setTasks} />
+                <Header title="Tasks" />
+                <TaskList tasks={tasks} setTasks={setTasks} />
             </div>
-        )
-    }
+            <Footer
+                textColor="#fff"
+                bgColor="#333"
+                linkColor="#8f33d1"
+            />
+        </div>
+    );
+}
 
-    export default Tasks
+export default Tasks;

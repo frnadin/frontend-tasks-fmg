@@ -5,4 +5,16 @@
 
 .text-box TaskList {
     color: #8f33d1;
+    margin-bottom: 50px;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.task-box {
+  flex: 1; 
+  margin-bottom: 120px;
 }

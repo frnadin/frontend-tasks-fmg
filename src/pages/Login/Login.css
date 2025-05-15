@@ -1,9 +1,18 @@
-/* Caixa do login */
+
+
+body{
+  display: block;
+    margin: 0;
+  /* display: flex; */
+  flex-direction: column;
+}
 .login-page {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  /* padding-bottom: 50px; */
+  margin-bottom: 50px;
 }
 .login-box {
   background-color: #ffffff11;
