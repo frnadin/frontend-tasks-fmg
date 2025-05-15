@@ -18,7 +18,7 @@ const Register = () => {
         setSuccess(null);
 
         try {
-            const response = await axios.post('http://localhost:3131/register', {
+            const response = await axios.post('https://backend-tasks-fmg.onrender.com/register', {
                 name,
                 email,
                 password
