@@ -35,5 +35,5 @@ Este front-end está conectado à API do Backend - backend-tasks-fmg, que trata 
 
 ## 👨‍💻 Desenvolvido por
 
-Fernando G.  
+Fernando Gutilla  
 [🔗 GitHub](https://github.com/frnadin)
