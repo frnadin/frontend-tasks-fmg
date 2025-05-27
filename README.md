@@ -20,3 +20,20 @@ Este é o **frontend** de uma aplicação de gerenciamento de tarefas, construí
 - Logout com limpeza de token
 - Proteção de rotas (PrivateRoute)
 - Header com título dinâmico e botão de logout
+
+## 🔄 Integração com API
+
+Este front-end está conectado à API do Backend - backend-tasks-fmg, que trata da autenticação, persistência e regras de negócio.
+
+## 📦 Próximos Passos
+
+- Validação de formulário
+- Interface responsiva
+- Filtros por status
+- Confirmações de exclusão
+- Tema escuro/claro
+
+## 👨‍💻 Desenvolvido por
+
+Fernando G.  
+[🔗 GitHub](https://github.com/frnadin)
